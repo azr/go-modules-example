@@ -8,3 +8,5 @@ github.com/azr/go-modules-example/subpkg/v2 v2.0.0 h1:yIX1URVIiTNj7hCO9GB7MHQ3uy
 github.com/azr/go-modules-example/subpkg/v2 v2.0.0/go.mod h1:34gw6AwIgoMEBJ9LuvBvtbr7FPc4c9Doy6Z72HpjD5s=
 github.com/azr/go-modules-example/v2 v2.0.0 h1:qQ1hmGkdqHTo0Nt5g53YVcyw3/lpA749lr0JWMvTtuw=
 github.com/azr/go-modules-example/v2 v2.0.0/go.mod h1:TNqPGICETGFpKLsvxMPOJ81z24qaZ3keFpfW1vIS/bA=
+github.com/azr/go-modules-example/v3 v3.0.0 h1:wlryWjQPwLpi20Xg3iJQe9JH5laIOq658FVugspW174=
+github.com/azr/go-modules-example/v3 v3.0.0/go.mod h1:qO1Z/IXL8edOdFvThoIZlICdqhb0Romb2hG4K2gTxTc=
