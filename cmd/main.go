@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	gme "github.com/azr/go-modules-example"
-	"github.com/azr/go-modules-example/subpkg"
+	"github.com/azr/go-modules-example/subpkg/v2"
+	gme "github.com/azr/go-modules-example/v2"
 )
 
 func main() {
