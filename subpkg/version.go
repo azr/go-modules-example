@@ -1,3 +1,3 @@
 package subpkg
 
-var Version = "v2"
+var Version = "v3"
