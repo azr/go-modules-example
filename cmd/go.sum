@@ -1,2 +1,6 @@
+github.com/azr/go-modules-example v0.0.0-20200319145350-abf6fde9a885/go.mod h1:yE8dGGJzW+chTLlOukrRq03mPxZ6MUiKv240zYk2ulw=
 github.com/azr/go-modules-example v0.0.0-20200319145642-148eb0796cf9 h1:zx6uvFoKX8abiZsM0BoDSAsvuZwhLS11x95igyEy3ak=
 github.com/azr/go-modules-example v0.0.0-20200319145642-148eb0796cf9/go.mod h1:yE8dGGJzW+chTLlOukrRq03mPxZ6MUiKv240zYk2ulw=
+github.com/azr/go-modules-example/cmd v0.0.0-20200319145350-abf6fde9a885/go.mod h1:cik7sq1dpDExmPjXyy66/9rJrMXs2GHyXckL64Syyfk=
+github.com/azr/go-modules-example/subpkg v0.0.0-20200319145837-15f202b7c0da h1:9bwnM5Mw7Wjd6odYQ5Xp7nFQsIZ3YcXXQ6KCQJjdmY0=
+github.com/azr/go-modules-example/subpkg v0.0.0-20200319145837-15f202b7c0da/go.mod h1:rHLMwVvUslmqqLQ2smw3wyhRgTBD2JB4SO9sMar7aGU=
