@@ -1,7 +1,7 @@
 # go-modules-example
 trying things around go modules multimodules, multisubmodules and tagging
 
-https://github.com/azr/go-modules-example/blob/v3/cmd/main.go uses modules of the same packages under 3 different versions.
+https://github.com/azr/go-modules-example/blob/v3/cmd/main.go ( in the `v3` branch ) uses modules of the same packages under 3 different versions.
 
 here are some take aways :
 
