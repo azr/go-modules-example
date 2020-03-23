@@ -9,4 +9,4 @@ here are some take aways :
 
 * use a `v${MAJOR_VERSION}` branch to make updates easier, my go (`1.14`) could only find the `v3.0.0`  version - without hinting nor using the commit sha - only after I put the tag in the `v3` branch ( first it was in the `v2`  one )
 
-* there always needs to be a `go.mod` file in the root folder 
+* there always needs to be a `go.mod` file in the root git folder 
