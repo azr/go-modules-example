@@ -37,8 +37,8 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Printf("Version: %s\n", bi.Main.Version)
+	fmt.Printf("Version: %s sum: %s\n", bi.Main.Version, bi.Main.Sum)
 	for _, dep := range bi.Deps {
-		fmt.Printf("Dep %q version: %s\n", dep.Path, bi.Main.Version)
+		fmt.Printf("Dep %q version: %s sum: %s\n", dep.Path, dep.Version, dep.Sum)
 	}
 }
