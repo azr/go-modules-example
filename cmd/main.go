@@ -11,6 +11,9 @@ import (
 
 	subpkgv3 "github.com/azr/go-modules-example/subpkg/v3"
 	gmev3 "github.com/azr/go-modules-example/v3"
+
+	subpkgv4 "github.com/azr/go-modules-example/subpkg/v4"
+	gmev4 "github.com/azr/go-modules-example/v4"
 )
 
 func main() {
@@ -22,4 +25,7 @@ func main() {
 
 	fmt.Println("gmev3 pkg version is ", gmev3.Version)
 	fmt.Println("subpkgv3 version is ", subpkgv3.Version)
+
+	fmt.Println("gmev4 pkg version is ", gmev4.Version)
+	fmt.Println("subpkgv4 version is ", subpkgv4.Version)
 }

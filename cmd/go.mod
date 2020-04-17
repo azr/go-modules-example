@@ -1,6 +1,9 @@
-module github.com/azr/go-modules-example/cmd
+module github.com/azr/go-modules-example/cmd/v4
 
 go 1.14
+
+replace github.com/azr/go-modules-example/v4 => ..
+replace github.com/azr/go-modules-example/subpkg/v4 => ../subpkg
 
 require (
 	github.com/azr/go-modules-example v0.0.0-20200319150029-d797a92ce60f

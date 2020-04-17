@@ -1,3 +1,3 @@
 package gme
 
-var Version = "v3"
+var Version = "v4"
