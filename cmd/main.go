@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"os"
+	"runtime/debug"
 
 	gmev1 "github.com/azr/go-modules-example"
 	subpkgv1 "github.com/azr/go-modules-example/subpkg"
@@ -28,4 +30,15 @@ func main() {
 
 	fmt.Println("gmev4 pkg version is ", gmev4.Version)
 	fmt.Println("subpkgv4 version is ", subpkgv4.Version)
+
+	bi, ok := debug.ReadBuildInfo()
+	if !ok {
+		fmt.Println("ReadBuildInfo failed")
+		os.Exit(1)
+	}
+
+	fmt.Printf("Version: %s\n", bi.Main.Version)
+	for _, dep := range bi.Deps {
+		fmt.Printf("Dep %q version: %s\n", dep.Path, bi.Main.Version)
+	}
 }
